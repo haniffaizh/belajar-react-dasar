@@ -8,6 +8,7 @@ import AlertButton from "../button/AlertButton.jsx";
 import MyButton from "../button/MyButton.jsx";
 import Toolbar from "../button/Toolbar.jsx";
 import SearcForm from "../form/SearchForm.jsx";
+import SayHelloForm from "../form/SayHelloForm.jsx";
 
 createRoot(document.getElementById("root"))
     .render(
@@ -23,6 +24,7 @@ createRoot(document.getElementById("root"))
                     alert("You click toolbar");
                 }}/>
                 <SearcForm/>
+                <SayHelloForm/>
             </Container>
         </StrictMode>
     )
